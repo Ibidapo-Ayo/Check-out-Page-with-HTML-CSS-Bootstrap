@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins&display=swap');
+.nav{
+    background-color: darkblue;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.return{
+    font-size: 10px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+.card-text{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+.qty{
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-size: 12px;
+}
+.qty a{
+    text-decoration: none;
+    color: orange;
+}
+.btn-primary{
+    background-color: darkblue;
+    border: none;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-primary:hover, .btn-primary:valid{
+    background-color: darkblue;
+}
+.mt-50{
+    margin-top: 20px;
+}
+.total{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.total_price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+.mt--5{
+    margin-top: -20px;
+}

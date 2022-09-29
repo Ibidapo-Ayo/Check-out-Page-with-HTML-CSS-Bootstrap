@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Single Check out page Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Checkout</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link return" href="#">Return to cart</a>
+        </li>
+      </ul>
+      <div class="container">
+      <div class="row">
+          <div class="col-md-7 t--5">
+              <h4 class="title">Getting your Order</h4>
+              <hr>
+              <form class="row g-3 ">
+                    <h4 class="sub_title">Shipping Information</h4>
+                    <div class="col-md-6">
+                      <label for="firstname" class="form-label">Firstname</label>
+                      <input type="text" class="form-control" id="firstname" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="lastname" class="form-label">Lastname</label>
+                      <input type="text" class="form-control" id="lastname" placeholder="Last name">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Address 2 (Optional)</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip Code</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Save this as my biling address
+                        </label>
+                      </div>
+                    </div>
+
+                    <form action="">
+                            <h4 class="sub_title">Contact Information</h4>
+                            <div class="">
+                                    <label for="Email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="Email" placeholder="Email Address">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="Phone Number" class="form-label">Phone Number</label>
+                                    <input type="phone" class="form-control" id="Phone Number" placeholder="Phone Number">
+                                  </div>
+                    </form>
+                    <div class="d-grid gap-2 col-md-12">
+                            <button class="btn btn-primary" type="button">Continue to Payment Information</button>
+                           
+                          </div>
+                  </form>
+          </div>
+          <div class="col-md-5">
+                <h4 class="title">Order Summary</h4>
+                <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                        <h5>Shipping</h5>
+                        <div class="card" style="border: none;">
+                                <div class="row g-0">
+                                  <div class="col-md-3">
+                                    <img src="./images/laptop.jpg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <p class="card-text">DELL Inspiron 5406 2-in-1 14" Touch-Screen Laptop Intel Core I3 8GB RAM 256GB SSD I5406-3661SLV-PUS</p><p class="qty"><b style="font-size: 20px;">₦ 345,000</b> <br> Qty 1 <br> <a href="#">Remove</a></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row g-0">
+                                  <div class="col-md-3">
+                                    <img src="./images/sneakers.jpg" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <p class="card-text">Men Trend Casual Breathable Sports Sneakers Shoes-Black</p><p class="qty"><b style="font-size: 20px;">₦ 2,590</b> <br> Qty 3 <br> <a href="#">Remove</a></p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <hr>
+                                    <div class="row g-0">
+                                      <div class="col-md-8">
+                                            <div class="card-body">
+                                                    <p class="card-text">Items Subtotal</p>
+                                                    <p class="card-text">Shipping</p>
+                                                    <p class="card-text">Estimated Sales Tax</p>
+                                                  </div>
+                                      </div>
+                                      <div class="col-md-4">
+                                        <div class="card-body">
+                                          <p class="qty"><b>₦ 347,590</b></p>
+                                          <p class="qty"><b style="color: orange">FREE</b></p>
+                                          <p class="qty">Not Calculated</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <hr>
+                                        <div class="row g-0">
+                                          <div class="col-md-6">
+                                                <div class="card-body">
+                                                    <h2 class="total">Total</h2>
+                                                      </div>
+                                          </div>
+                                          <div class="col-md-6">
+                                            <div class="card-body">
+                                              <h3 class="total_price">₦ 347,590</h3>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                              </div>
+                      </div>
+          </div>
+      </div>
+      </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
